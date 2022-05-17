@@ -1,0 +1,13 @@
+Set Up Development Org :-
+Create a new Trailhead Playground for this superbadge.
+Install this unlocked package (package ID: 04t6g000008av9iAAA).
+Add picklist values Repair and Routine Maintenance to the Type field on the Case object.
+Update the Case page layout assignment to use the Case (HowWeRoll) Layout for your profile.
+Rename the tab/label for the Case tab to Maintenance Request.
+Update the Product page layout assignment to use the Product (HowWeRoll) Layout for your profile.
+Rename the tab/label for the Product object to Equipment.
+Click on App Launcher and search Create Default Data then Click Create Data to generate sample data for the application.
+Go to the App Launcher -> Search How We Roll Maintenance -> click on Maintenance Requests -> click on first case -> click Details -> change the type Repair to Routine Maintenance -> select Origin = Phone -> Vehicle = select Teardrop Camper , save it.
+Feed -> Close Case = save it..
+Go to the Object Manager -> Maintenance Request ->Field & Relationships ->New ->Lookup Relationship -> next -> select Equipment ->next -> Field Label = Equipment ->next->next->next -> save it .
+Now go to the developer console use below code  
