@@ -1,0 +1,12 @@
+APEX SPECIALIST SUPERBADGE CHALLENGE 2- Synchronize Salesforce data with an external system
+
+Implement an Apex class (called WarehouseCalloutService) that implements the queueable interface and makes a callout to the external service used for warehouse inventory management. This service receives updated values in the external system and updates the related records in Salesforce. Before checking this section, enqueue the job at least once to confirm that it's working as expected.
+
+
+
+Solution:
+
+
+
+Setup -> Search in quick find box -> click Remote Site Settings -> Name = Warehouse  URL , Remote Site URL = https://th-superbadge-apex.herokuapp.com , make sure active is selected.
+Go to the developer console use below code 
